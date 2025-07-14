@@ -32,7 +32,7 @@ otherwise breaks everytime some setting is changed in kde.
 
 %prep
 %setup -q -n %{name}2-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 install -d build
